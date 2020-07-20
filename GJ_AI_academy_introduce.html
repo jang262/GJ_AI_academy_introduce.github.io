@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 
+    - 아이디
+    - 비밀번호
+    - 비밀번호 질문 받기 (label 과 select 태그 활용)
+    - 자기소개 작성할 수 있는 폼 받기 
+    -->
+    <form action="https://server.ai-school.com" method="POST">
+        <input type="text" name="userid" placeholder="아이디를 입력해주세요"/>
+        <br/>
+        <input 
+            type = "password"
+            name="userpw"
+            placeholder="비밀번호를 입력해주세요"
+        />
+        <br/>
+        <br/>
+        <label for ="check_pw">비밀번호 확인 질문</label>
+        <select id="check_pw" name="checkpw">
+            <option value="q1">
+                부모님의 첫 연애 장소는 ?
+            </option>
+            <option value="q2">
+                가장 기억에 남는 여행지는 ?
+            </option>
+        </select>
+        <br/>
+        <br/>
+        <textarea name="content" cols="50" row="50">
+            form의 기본 내용
+        </textarea>
+        <button name="전송" type="submit">
+            전송하기
+        </button>
+        <!-- <input value="전송하기" type="button" name="button"/> -->
+    </form>
+</body>
+</html>
+
