@@ -1,0 +1,16 @@
+
+* {
+    background-color: rgb(177, 225, 65);
+}
+
+textarea{
+    color: royalblue;
+}
+@font-face{
+    font-family: cursive;
+
+}
+
+input {
+    padding : 10px;
+}
